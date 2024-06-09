@@ -164,7 +164,7 @@ const TopsisTable = ({ items, getDataTopsis }) => {
                       </td>
                       <td className="border-2 pl-3"> {item.namaTempat}</td>
                       <td className="border-2 pl-3">
-                        Rp. {formatPrice(item.tiketMasuk)}
+                        {formatPrice(item.tiketMasuk)}
                       </td>
                       <td className="border-2 pl-3">{item.jarak} KM</td>
                       <td className="border-2 pl-3"> {item.ratingGoogle}</td>
